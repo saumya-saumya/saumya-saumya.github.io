@@ -16,11 +16,11 @@
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-open": "^3.0.1",
-    "node-sass": "4.5.0"
+    "node-sass": "7.0.0"
   },
   "dependencies": {
     "css-to-scss": "^0.5.1",
-    "node-sass": "^4.11.0"
+    "node-sass": "^7.0.0"
   },
   "main": "gulpfile.js",
   "directories": {
