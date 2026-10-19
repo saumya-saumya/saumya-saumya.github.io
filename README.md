@@ -1,27 +1,36 @@
-# Saumya S. — professional résumé
+# Saumya S. — interactive career profile
 
-Public portfolio: https://saumya-saumya.github.io/
+Public site: https://saumya-saumya.github.io/
 
-Résumé-first website presenting financial-data engineering experience, earlier machine-learning work, technical skills, education and supporting projects. The October 2026 revision prioritizes a readable work history and retains all earlier assets and repository history.
+A personal profile for a Los Angeles data engineer: current financial-data engineering at Payden & Rygel, earlier NLP and NVIDIA model deployment, technical skills, education and selected public projects.
 
-## Current site
+## Run and publish
 
-The homepage uses `index.html`, `resume-2026.css` and `resume-2026.js`. It is a buildless static site, published by GitHub Pages from `master` / root. No package installation, backend, model service or API keys are needed to run it.
+The buildless homepage uses `index.html`, `career-2026.css`, `career-2026.js` and the existing portrait in `assets/img/`. `resume.html` is a separate full résumé using `resume-2026.css` and `resume-2026.js`. GitHub Pages publishes `master` / root; `.nojekyll` is retained. No package installation, service, API key or model is required.
 
-```text
-python -m http.server 8766
-```
+For a local preview, serve this directory with a static HTTP server. The Trade State Lab demonstration is published separately at https://saumya-saumya.github.io/trade-state-lab/.
 
-Open http://localhost:8766/. The `/trade-state-lab/` link points to a separately published GitHub project site and is available on the public domain.
+## Visitor interactions
 
-The résumé displays all experience without expanding or filtering, grouped skills, education and two supporting projects. It uses navy accents, responsive layouts and print styles. The print/save control opens the browser print dialog; select Save as PDF there if desired. All résumé content, section links and professional profile links remain available without JavaScript. The only script enables the print button.
+- Short/long introduction, with a personal portrait and explicit current role.
+- Career filters for all experience, data engineering and machine learning; each role opens detailed work highlights.
+- Skill selections show where the skill was used and link to matching roles.
+- Three labeled public projects with category filters, details and source links.
+- Local search of published experience and projects, with Ctrl/Command K and slash shortcuts.
+- Light/dark theme, active section navigation, mobile menu and reduced-motion styles.
+- Direct email and LinkedIn contact, plus copy actions. If clipboard permission is blocked or does not resolve, selectable text is shown after a bounded wait. No message is sent by this site.
+- Separate full résumé with native browser print/save control.
 
-## Design references
+All five dated role summaries and professional links are present in HTML. Without JavaScript, full work bullets appear through `noscript`, project links remain available, and the separate résumé can be read. Theme storage is optional. There are no trackers, sign-ups, AI chat claims, visitor data uploads or automatically fetched activity feeds.
 
-The structure was informed by Nathan Lovin's analytics/data-engineering profile (https://www.nathanlovin.com/) and Utkarsh Tiwari's technical résumé (https://utk09.github.io/resume), reviewed October 19, 2026. Relevant patterns are a clear professional identity, specific tools, visible reverse-chronological experience, education and supporting project links. Their wording, achievements and claims are not reused. These are design references, not evidence of hiring outcomes.
+## Content and preservation
 
-## Content boundaries
+AI-team data engineering is a career direction. Earlier TensorFlow Serving experience is explicitly identified as a 2017 NVIDIA internship. Trade State Lab is an AI-assisted synthetic educational demonstration; no independent implementation, production LLM experience, private employer work or AI accuracy benchmark is claimed. Academic repositories are historical and have not been represented as current runnable software.
 
-Professional experience is separate from educational demonstrations. The AI-team focus is a career direction, not a claim of current production LLM work. Trade State Lab is an AI-assisted synthetic example, not a claim of independent implementation or measured AI accuracy. Historical project repositories are labeled with their period; their runtime compatibility is not implied. No employer data or code is included.
+The public email address was confirmed by Saumya on October 19, 2026, correcting the college page's mismatched mail link. No phone number is included in the revised pages.
 
-Earlier assets, the preceding portfolio theme and the old build configuration remain preserved for history; the résumé does not import them. Previous versions can be inspected in Git history. Personal résumé; no employer endorsement implied.
+The preceding résumé, portfolio assets, college-era files and all earlier history remain preserved. The new homepage does not load earlier Bootstrap/jQuery or portfolio themes.
+
+## Presentation references
+
+Eighteen primary sites were reviewed on October 19, 2026: twelve AI/data practitioners and six developer/interaction references. Particularly useful patterns came from Brittany Chiang (https://brittanychiang.com/), Lee Robinson (https://leerob.com/), Jay Alammar (https://jalammar.github.io/), Joe Reis (https://joereis.xyz/) and Eugene Yan (https://eugeneyan.com/). Original composition and biography wording were written for Saumya. Third-party achievements, assets and claims were not copied. These references are not evidence of hiring outcomes.
